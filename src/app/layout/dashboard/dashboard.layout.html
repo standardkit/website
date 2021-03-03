@@ -1,0 +1,44 @@
+<sk-dashboard-layout>
+
+  <sk-navigation-bar>
+
+    <sk-brand>Tekst /plaatje</sk-brand>
+    <h1 slot="brand">StandardKit</h1>
+
+    <sk-navigation>Nog iets te seeclten</sk-navigation>
+
+    <sk-spacer></sk-spacer>
+
+    <sk-icon icon="settings"> als je hier op klikt ook menutje</sk-icon>
+    <sk-avatar>plaatje en default icon iets met onclick een menutje</sk-avatar>
+    <sk-select>dropdowntje met talen</sk-select>
+    Settingsding
+    avatar met dropdown menu
+
+  </sk-navigation-bar>
+
+  <sk-sidebar>
+    <sk-navigation>
+
+      <sk-navigation-item icon=""> <sk-icon></sk-icon> <i class="" slot="icon"></i>Dashboard</sk-navigation-item>
+      <sk-divider></sk-divider>
+      <h2 slot="title">Detail dingen titel</h2>
+      <sk-navigation-item>Statistics <sk-badge *ngIf="hasNotifications" type="round"></sk-badge></sk-navigation-item>
+      <sk-navigation-item>
+        Articles
+        <sk-navigation-item>Subarticle page</sk-navigation-item>
+        <sk-navigation-item>Create article</sk-navigation-item>
+      </sk-navigation-item>
+
+
+    </sk-navigation>
+    <sk-spacer></sk-spacer>
+    <sk-navigation>
+      Footer navigation
+    </sk-navigation>
+  </sk-sidebar>
+
+  <router-outlet></router-outlet>
+
+</sk-dashboard-layout>
+
