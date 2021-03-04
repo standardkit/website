@@ -1,12 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
 /** Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /** Theme */
-//@import '~@standardkit/themes/scss/dark/theme';
+@import '~@standardkit/themes/scss/default/theme';
 
+$colors: (
+  error: purple,
+  hot: hotpink,
+  primary: #ffce33
+);
 
+$titleFont: 'Roboto Slab', sans-serif;
+$textFont: 'Open Sans', sans-serif;
+
+$fonts: (
+  title: $titleFont,
+  text: $textFont
+);
+
+/** Styles */
 @import '~@standardkit/styles/scss/style';
 
 * {

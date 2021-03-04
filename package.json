@@ -23,6 +23,7 @@
     "@mdi/font": "^5.9.55",
     "@standardkit/angular-components": "0.0.4",
     "@standardkit/styles": "0.0.4",
+    "@standardkit/themes": "0.0.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
