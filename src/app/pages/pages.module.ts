@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { SkCommonModule } from '@standardkit/angular-components';
+import { SkCommonModule, SkComponentsModule } from '@standardkit/angular-components';
 import { ComponentsModule } from '../components/components.module';
 import { HomeComponent } from './home/home.component';
 
@@ -10,7 +10,8 @@ const PAGES = [
 @NgModule({
   imports: [
     ComponentsModule,
-    SkCommonModule
+    SkCommonModule,
+    SkComponentsModule
   ],
   declarations: PAGES,
   exports: PAGES
