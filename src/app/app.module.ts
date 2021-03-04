@@ -1,16 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { StandardKitModule } from '@standardkit/angular-components';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LayoutModule } from './layout/layout.module';
 import { PagesModule } from './pages/pages.module';
+import { RoutingModule } from './routing/routing.module';
 
 @NgModule({
   imports: [
-    AppRoutingModule,
+    RoutingModule,
     BrowserModule,
     PagesModule,
-    StandardKitModule.forRoot({iconSet: 'font-awesome', alert: {hasIcon: true, isDismissable: true}})
+    LayoutModule,
+    StandardKitModule.forRoot({
+      iconSet: 'font-awesome',
+      iconMap: {close: 'times', success: 'check', error: 'exclamation', info: 'lightbulb'},
+      alert: {hasIcon: true, margin: 's', padding: 's'}
+    })
   ],
   declarations: [
     AppComponent

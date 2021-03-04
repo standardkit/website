@@ -20,7 +20,9 @@
     "@angular/platform-browser-dynamic": "~11.2.1",
     "@angular/router": "~11.2.1",
     "@fortawesome/fontawesome-free": "^5.15.2",
+    "@mdi/font": "^5.9.55",
     "@standardkit/angular-components": "0.0.4",
+    "@standardkit/styles": "0.0.4",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
