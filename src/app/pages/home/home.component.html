@@ -1,11 +1,4 @@
-<h1>Home</h1>
-
-<sk-alert type="error" icon="home" padding="xs" [fullWidth]="true" fill="outline" alignDismiss="center">Lorem ipsum dolor sit amet,
-  consectetur adipisicing elit. Aperiam aut doloribus ducimus enim harum molestias officiis possimus, quaerat
-  reprehenderit sint, unde veritatis voluptate. A ab alias aliquam architecto delectus distinctio, earum ex id illum
-  impedit inventore magni molestiae odit perferendis perspiciatis quisquam rerum sapiente unde. Exercitationem id quidem
-  sequi vero.
-</sk-alert>
+<sk-title [heading]="1">Home</sk-title>
 
 <sk-title>Padding</sk-title>
 <sk-alert type="error" icon="home" padding="xs" [fullWidth]="true" fill="outline">Error alert</sk-alert>
@@ -37,6 +30,28 @@
 <sk-alert type="success" icon="home" [fullWidth]="true" fill="fill">Success alert</sk-alert>
 <sk-alert type="info" icon="home" [fullWidth]="true" fill="fill">Info alert</sk-alert>
 
+<sk-title>Icon alignment</sk-title>
+<sk-alert type="error" icon="home" [fullWidth]="true" alignIcon="bottom" alignDismiss="top"
+          [dismissable]="true">Lorem ipsum dolor sit amet,
+  consectetur adipisicing elit. Aperiam aut doloribus ducimus enim harum molestias officiis possimus, quaerat
+  reprehenderit sint, unde veritatis voluptate. A ab alias aliquam architecto delectus distinctio, earum ex id illum
+  impedit inventore magni molestiae odit perferendis perspiciatis quisquam rerum sapiente unde. Exercitationem id quidem
+  sequi vero.
+</sk-alert>
+<sk-alert type="error" icon="home" [fullWidth]="true" alignIcon="middle" alignDismiss="middle"
+          [dismissable]="true">Lorem ipsum dolor sit amet,
+  consectetur adipisicing elit. Aperiam aut doloribus ducimus enim harum molestias officiis possimus, quaerat
+  reprehenderit sint, unde veritatis voluptate. A ab alias aliquam architecto delectus distinctio, earum ex id illum
+  impedit inventore magni molestiae odit perferendis perspiciatis quisquam rerum sapiente unde. Exercitationem id quidem
+  sequi vero.
+</sk-alert>
+<sk-alert type="error" icon="home" [fullWidth]="true" alignIcon="top" alignDismiss="bottom"
+          [dismissable]="true">Lorem ipsum dolor sit amet,
+  consectetur adipisicing elit. Aperiam aut doloribus ducimus enim harum molestias officiis possimus, quaerat
+  reprehenderit sint, unde veritatis voluptate. A ab alias aliquam architecto delectus distinctio, earum ex id illum
+  impedit inventore magni molestiae odit perferendis perspiciatis quisquam rerum sapiente unde. Exercitationem id quidem
+  sequi vero.
+</sk-alert>
 
 <sk-title>Custom type from single color</sk-title>
 <sk-alert type="custom1" icon="home" [fullWidth]="true" fill="plain">Warning alert</sk-alert>
