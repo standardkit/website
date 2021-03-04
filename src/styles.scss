@@ -10,7 +10,11 @@
 $colors: (
   error: purple,
   hot: hotpink,
-  primary: #ffce33
+  primary: (
+    primary: #ffce33,
+    secondary: #ff0000,
+    contrast: #030303,
+  )
 );
 
 $titleFont: 'Roboto Slab', sans-serif;
@@ -23,7 +27,3 @@ $fonts: (
 
 /** Styles */
 @import '~@standardkit/styles/scss/style';
-
-* {
-  font-family: 'Roboto', sans-serif;
-}
