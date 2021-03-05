@@ -14,8 +14,7 @@ import { RoutingModule } from './routing/routing.module';
     LayoutModule,
     StandardKitModule.forRoot({
       iconSet: 'font-awesome',
-      iconMap: {close: 'times', success: 'check', error: 'exclamation', info: 'lightbulb'},
-      alert: {hasIcon: true, margin: 's', padding: 's'}
+      alert: {hasIcon: true}
     })
   ],
   declarations: [

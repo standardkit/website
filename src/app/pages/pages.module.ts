@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { SkCommonModule, SkComponentsModule } from '@standardkit/angular-components';
-import { ComponentsModule } from '../components/components.module';
 import { HomeComponent } from './home/home.component';
+import { TestComponent } from './test/test.component';
 
 const PAGES = [
-  HomeComponent
+  HomeComponent,
+  TestComponent
 ];
 
 @NgModule({
   imports: [
-    ComponentsModule,
     SkCommonModule,
     SkComponentsModule
   ],

@@ -21,9 +21,10 @@
     "@angular/router": "~11.2.1",
     "@fortawesome/fontawesome-free": "^5.15.2",
     "@mdi/font": "^5.9.55",
-    "@standardkit/angular-components": "0.0.4",
-    "@standardkit/styles": "0.0.4",
-    "@standardkit/themes": "0.0.2",
+    "@standardkit/angular-components": "0.0.6",
+    "@standardkit/styles": "0.0.5",
+    "@standardkit/themes": "0.0.4",
+    "bootstrap-icons": "^1.4.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
