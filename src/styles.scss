@@ -9,11 +9,16 @@
 
 $colors: (
   error: purple,
-  hot: hotpink,
   primary: (
     primary: #ffce33,
     secondary: #ff0000,
     contrast: #030303,
+  ),
+  hot: hotpink,
+  weird: (
+    primary: #3b065d,
+    secondary: #e85858,
+    contrast: #ffcd15
   )
 );
 
